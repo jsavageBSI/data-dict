@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>icsp.unitstock - Stocking Units</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>icsp.unitstock - Stocking Units</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Stocking Units</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(4)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>each</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The stocking unit is required for every product.  It is not validated</td></tr><tr><td>against any unit setups and is always assumed to represent a single unit</td></tr><tr><td>in all quantity fields for the product.  It is normally 'each'.  It is</td></tr><tr><td>HIGHLY RECOMMENDED that the stocking unit be the smallest possible</td></tr><tr><td>selling unit to avoid fractional quantities.</td></tr><tr><td></td></tr><tr><td>The stocking unit is also used as an automatic default for all other</td></tr><tr><td>units for the product.  Any unit (other than stocking) that is left</td></tr><tr><td>blank will be considered equal to the stocking unit.</td></tr><tr><td></td></tr><tr><td>The stocking unit is the basis for all quantity transactions in Trend.</td></tr><tr><td>As such, it is very important to not change the value of this field in</td></tr><tr><td>mid-stream.  Careful consideration must be given to the effect on:</td></tr><tr><td> 1) Quantities and Balances in ICSW</td></tr><tr><td> 2) Pricing in ICSW, PDS*</td></tr><tr><td> 3) Outstanding orders, transfers, purchase orders</td></tr><tr><td> 4) GL Balances</td></tr><tr><td> 5) History on file</td></tr></table>
+</div>
+</body>
+</html>

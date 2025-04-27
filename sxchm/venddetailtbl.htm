@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>VENDDETAIL - Vendor detail information</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>VENDDETAIL - Vendor detail information</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="venddetail_co_wh_abs_type.htm">co_wh_abs_type</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="venddetail_co_wh_venditem.htm">co_wh_venditem</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="venddetail_co_wh_vendor_venditem.htm">co_wh_vendor_venditem</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="venddetail_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="venddetail_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="venddetail_abs_num.htm">abs_num</a></td><td>Item Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="venddetail_box_qty.htm">box_qty</a></td><td>Box Quantity</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="venddetail_case_quantity.htm">case_quantity</a></td><td>Case Quantity</td><td>Decimal</td><td>>>>,>>9.9999</td><td></tr>
+<tr><td><a href="venddetail_country_code.htm">country_code</a></td><td>Country Code</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="venddetail_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="venddetail_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="venddetail_date_time.htm">date_time</a></td><td>Create Date</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="venddetail_date_timetz.htm">date_timetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="venddetail_item_price.htm">item_price</a></td><td>Item Price</td><td>Decimal</td><td>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="venddetail_pallet_quantity.htm">pallet_quantity</a></td><td>Pallet Quantity</td><td>Decimal</td><td>>>>,>>9.9999</td><td></tr>
+<tr><td><a href="venddetail_plt_block.htm">plt_block</a></td><td>Pallet Block</td><td>Integer</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="venddetail_plt_high.htm">plt_high</a></td><td>Pallet High</td><td>Integer</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="venddetail_ref_type.htm">ref_type</a></td><td>Ref Type</td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="venddetail_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="venddetail_stack_height.htm">stack_height</a></td><td>Stacking Height</td><td>Integer</td><td>>,>>>,>>9</td><td></tr>
+<tr><td><a href="venddetail_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="venddetail_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="venddetail_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="venddetail_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="venddetail_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="venddetail_uom.htm">uom</a></td><td>Unit of Measure</td><td>Character</td><td>X(4)</td><td></tr>
+<tr><td><a href="venddetail_vendor_id.htm">vendor_id</a></td><td>Vendor ID</td><td>Character</td><td>X(9)</td><td></tr>
+<tr><td><a href="venddetail_vend_item.htm">vend_item</a></td><td>Vendor Item</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="venddetail_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-venddetail.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-venddetail.p</td><td></tr>
+<tr><td>Write</td><td>w-venddetail.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

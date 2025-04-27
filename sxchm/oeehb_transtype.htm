@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>oeehb.transtype - Type</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>oeehb.transtype - Type</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Type</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(2)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>SO, QU, FO, CR, or RM</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The transaction type of the order. This describes the kind of order it</td></tr><tr><td>is. Supported through batch are:</td></tr><tr><td>SO - stock order (reserves inventory. Entry into stage 1)</td></tr><tr><td>QU - quote (does not reserve inventory. Entry into stage 0. Converted/</td></tr><tr><td>     copied through the F7 copy)</td></tr><tr><td>FO - future order (does not reserve inventory. Entry into stage 0.</td></tr><tr><td>     Converted to a SO through OEEPC or OEEPI when the promise date -</td></tr><tr><td>     oeeh.longltdays - sasc.oefutdays - sasc.oereqdays &amp;lt;= today)</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>RM - return merchandise (does not reserve inventory. Reduces on hand</td></tr><tr><td>     once invoiced. Entered into stage 1. Can be applied against an</td></tr><tr><td>     open invoice for accounting purposes or an invoiced sale order for</td></tr><tr><td>     inventory return purposes)</td></tr><tr><td>CR - correction (a debit or credit memo. Does not affect inventory at</td></tr><tr><td>     all. Entered into stage 3. Can be applied against an open invoice</td></tr><tr><td>     for accounting purposes)</td></tr><tr><td></td></tr><tr><td>The SO orders create type 0 or 4 ARETs. The RM creates a type 5 (if</td></tr><tr><td>applied) or 6 ARET. The CR creates a type 5 (if applied) or 6</td></tr></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>vaeh.openinit - Open Initials</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>vaeh.openinit - Open Initials</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Open Initials</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(4)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The operator that is currently working on the value add transaction.</td></tr><tr><td>this field is used to soft lock the order. When entry or maintenance is</td></tr><tr><td>performed on an order, the openinit is loaded with the current operator.</td></tr><tr><td>When the operator closes the order, the openinit is cleared. This</td></tr><tr><td>prevents 2 operators from working on the same order at the same time. We</td></tr><tr><td>employ soft locking since we are not in a transaction state the entire</td></tr><tr><td>time an order is entered due to potential lock table overflow problems</td></tr><tr><td>and length of record lock problems.</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>g-operinit when an order is opened</td></tr></table>
+</div>
+</body>
+</html>

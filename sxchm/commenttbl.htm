@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>COMMENT - Hold multi-line comments for orders and R/T's</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>COMMENT - Hold multi-line comments for orders and R/T's</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="comment_comment_num.htm">comment_num</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="comment_type_id_line_seq_cline.htm">type_id_line_seq_cline</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="comment_attributes.htm">attributes</a></td><td>Attributes</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="comment_comment_line.htm">comment_line</a></td><td>Comment Line</td><td>Integer</td><td>>,>>9</td><td></tr>
+<tr><td><a href="comment_comment_num.htm">comment_num</a></td><td></td><td>Integer</td><td>>>>,>>>,>>9</td><td></tr>
+<tr><td><a href="comment_comment_text.htm">comment_text</a></td><td>Comment Text</td><td>Character</td><td>x(80)</td><td></tr>
+<tr><td><a href="comment_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="comment_id.htm">id</a></td><td>Parent ID</td><td>Integer</td><td>>,>>>,>>>,>>9</td><td></tr>
+<tr><td><a href="comment_line.htm">line</a></td><td>Line</td><td>Integer</td><td>>,>>>,>>9</td><td></tr>
+<tr><td><a href="comment_line_sequence.htm">line_sequence</a></td><td>Line Sequence</td><td>Integer</td><td>>,>>9</td><td></tr>
+<tr><td><a href="comment_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="comment_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="comment_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="comment_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="comment_type.htm">type</a></td><td>Comment Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>CREATE</td><td>n-comment.p</td><td></tr>
+<tr><td>WRITE</td><td>w-comment.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

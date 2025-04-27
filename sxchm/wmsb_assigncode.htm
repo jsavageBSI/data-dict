@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>wmsb.assigncode - Assignment</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>wmsb.assigncode - Assignment</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Assignment</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>0</td></tr><tr><td align="right">Initial:&nbsp;</td><td>o</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>(O)pen, (P)rimary, (S)ingle, (A)lternate, (X)Staging, (U)navail</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br><table><tr><td><b>Indexes: </b></td></tr><tr><td> <td><a href="wmsb_k-wmassign.htm">k-wmassign</a></td> 
+<td><a href="wmsb_k-wmstatus.htm">k-wmstatus</a></td> 
+</table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Assign code</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>O = open Can be assigned or unassigned. An assigned open bin has</td></tr><tr><td>product assigned to be stored in it while an unassigned bin</td></tr><tr><td>does not have any products assigned. If you are using</td></tr><tr><td>random storage or FIFO picking, open unassigned bins are</td></tr><tr><td>used. Each bin can have its own pick priority.</td></tr><tr><td></td></tr><tr><td>P = primary The main storage location for a product. They are used for</td></tr><tr><td>picking and will be replenished when product is received or</td></tr><tr><td>when it contains less than its minimum quantity. A product</td></tr><tr><td>can have only one primary location.</td></tr><tr><td></td></tr><tr><td>S = single Used with products that have a single location that does not</td></tr><tr><td>change. A product that is stored in a single bin cannot be</td></tr><tr><td>stored in any other bin. Single bins, unlike primary bins, do</td></tr><tr><td>not have any related open or alternate bins for the same</td></tr><tr><td>product. Single bins are assumed to be of infinite size.</td></tr><tr><td></td></tr><tr><td>A = alternate Secondary locations most often used to replenish primary</td></tr><tr><td>locations. A product can have many alternate locations, each</td></tr><tr><td>one with its own pick priority.</td></tr><tr><td></td></tr><tr><td>X = staging Used when products are temporarily stored in a location so</td></tr><tr><td>you can locate and sort portions of orders during packing</td></tr><tr><td>and shipping. This provides visibility of containers picked by</td></tr><tr><td>operators and facilitates moving, locating, and retrieving the</td></tr><tr><td>containers to quickly consolidate an order. Staging locations</td></tr><tr><td>are ideal for orders with Will Call or Ship Complete</td></tr><tr><td>dispositions. For example, products are stored in a staging</td></tr><tr><td>area until back orders are filled. Staging bins allow you to</td></tr><tr><td>store more than one product regardless of your administrator</td></tr><tr><td>options. Pickers will be directed to extract products from</td></tr><tr><td>staging bins first.</td></tr><tr><td></td></tr><tr><td>U = unavailable</td></tr></table>
+</div>
+</body>
+</html>

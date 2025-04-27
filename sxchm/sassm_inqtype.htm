@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>sassm.inqtype - Inquiry Type</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>sassm.inqtype - Inquiry Type</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Inquiry Type</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(1)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>7</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>(J)ump, (P)ulldown or (T)rend Reserved</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Contains a type code to determine how the function key logic will be</td></tr><tr><td>processed. This field is updated using sassmi.p.</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>j = jump box logic. This will cause Trend to exit the calling program</td></tr><tr><td>and use the jump logic to validate security and call the program. A</td></tr><tr><td>SASSM record must exist for this calling program.</td></tr><tr><td></td></tr><tr><td>p = Pull down menu. This will find the SASSM record using the</td></tr><tr><td>sassm.inqproc field and display an updated function key bar.</td></tr><tr><td></td></tr><tr><td>t - Trend reserved. This will skip any SASSM requirements and simply</td></tr><tr><td>call directly the sassm.inqproc program. When the program has finished</td></tr><tr><td>executing control will return back to the calling program.</td></tr></table>
+</div>
+</body>
+</html>

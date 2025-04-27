@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>oeelb.specnstype - Spec/NS</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>oeelb.specnstype - Spec/NS</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Spec/NS</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>(S)pecial, (N)on-stock, (L)ost Business, or Blank</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The special/non-stock type describes the product/line disposition. It</td></tr><tr><td>can be used to identify a non-stock product, special order item, or lost</td></tr><tr><td>business line item. Each time the specnstype changes, OE treats the</td></tr><tr><td>entry as a new product and all variables are reinitialized. Handling of</td></tr><tr><td>the specnstype is done in oeetlns.p. Handling of the non-stock screen is</td></tr><tr><td>done in oeetlnus.p.</td></tr><tr><td>Non-Stock: the product is not stocked in this whse. All information</td></tr><tr><td>about the product must be manually entered.</td></tr><tr><td>Special order item: an "s" will be placed in the specnstype for all</td></tr><tr><td>Order as Needed products (since they are not stocked). A stock item may</td></tr><tr><td>also be specially ordered. This indicates that even if product is</td></tr><tr><td>available, it should not be used to fill this order. Specials and</td></tr><tr><td>non-stocks are picked up on the PO/WT RRARs.</td></tr><tr><td>Lost business line: this is used to record demand for the product that</td></tr><tr><td>is cancelled. It can be set at the line level or from a header order</td></tr><tr><td>cancel. If the specnstype is set to "l", the lost business activity will</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>blank = stocked product</td></tr><tr><td>n     = non-stock product</td></tr><tr><td>s     = stocked product that is a specially ordered item</td></tr><tr><td>l     = lost business line</td></tr></table>
+</div>
+</body>
+</html>

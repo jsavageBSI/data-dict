@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>SHPDTL - Shipping Detail Table used for generation of shipping manifests</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>SHPDTL - Shipping Detail Table used for generation of shipping manifests</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="shpdtl_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="shpdtl_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpdtl_manifestid.htm">manifestid</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpdtl_trackingid.htm">trackingid</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="shpdtl_actual_weight.htm">actual_weight</a></td><td>Weight</td><td>Decimal</td><td>>>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_addr.htm">addr</a></td><td>Address</td><td>Character[2]</td><td>x(30)</td><td></tr>
+<tr><td><a href="shpdtl_addr_ext.htm">addr_ext</a></td><td>Address</td><td>Character[3]</td><td>x(30)</td><td></tr>
+<tr><td><a href="shpdtl_add_on_cost.htm">add_on_cost</a></td><td>Add On Cost</td><td>Decimal</td><td>->>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_add_on_handling.htm">add_on_handling</a></td><td>Add On Handling</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_call_tag_issued.htm">call_tag_issued</a></td><td>Call Tag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_charges.htm">charges</a></td><td>Charges</td><td>Decimal</td><td>->>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_city.htm">city</a></td><td>City</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="shpdtl_cod_amt.htm">cod_amt</a></td><td>COD Amount</td><td>Decimal</td><td>->>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_consignee_name.htm">consignee_name</a></td><td>Consignee Name</td><td>Character</td><td>X(30)</td><td></tr>
+<tr><td><a href="shpdtl_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="shpdtl_declared_value.htm">declared_value</a></td><td>Declared Value</td><td>Decimal</td><td>->>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_invoice_num.htm">invoice_num</a></td><td>Invoice Number</td><td>Character</td><td>X(12)</td><td></tr>
+<tr><td><a href="shpdtl_manifest_id.htm">manifest_id</a></td><td>Manifest Id</td><td>Integer</td><td>999999999</td><td></tr>
+<tr><td><a href="shpdtl_oversized.htm">oversized</a></td><td>Oversized Item</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_package_type.htm">package_type</a></td><td>Package Type</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="shpdtl_pro_num_id.htm">pro_num_id</a></td><td>Pro Number</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="shpdtl_residential_flag.htm">residential_flag</a></td><td>Residential Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_route.htm">route</a></td><td>Route</td><td>Character</td><td>xxx/xx/xx</td><td></tr>
+<tr><td><a href="shpdtl_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="shpdtl_ship_cust_code.htm">ship_cust_code</a></td><td>Shipping Cust. Code</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="shpdtl_shp_by_irms.htm">shp_by_irms</a></td><td>Shipped By TWL</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_state.htm">state</a></td><td>State</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="shpdtl_tracking_id.htm">tracking_id</a></td><td>Tracking ID</td><td>Character</td><td>X(30)</td><td></tr>
+<tr><td><a href="shpdtl_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="shpdtl_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="shpdtl_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="shpdtl_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="shpdtl_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="shpdtl_ups_ground_track.htm">ups_ground_track</a></td><td>UPS Ground Track</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_void.htm">void</a></td><td>Void</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="shpdtl_weight.htm">weight</a></td><td>Weight</td><td>Decimal</td><td>>>>,>>>,>>9.99</td><td></tr>
+<tr><td><a href="shpdtl_zip.htm">zip</a></td><td>Zip Code</td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="shpdtl_zone.htm">zone</a></td><td>Zone</td><td>Integer</td><td>>9</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-shpdtl.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-shpdtl.p</td><td></tr>
+<tr><td>Write</td><td>w-shpdtl.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

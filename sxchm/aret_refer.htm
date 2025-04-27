@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>aret.refer - Ref</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>aret.refer - Ref</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Ref</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(24)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>User Defined or Reference # (Start With . or #)</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The Referenence is a text field.  It is enterable by the user in ARET,</td></tr><tr><td>ARECE, AREBT, and OEET(header).</td></tr><tr><td>Type 3-Unapplied Cash transactions created in OEET will create an</td></tr><tr><td>        aret.refer  of "OE Received On Account".</td></tr><tr><td>Type 7-Check transactions created in OEET will contain an aret.refer</td></tr><tr><td>        of the order number if a reference is not entered in the OEET header.</td></tr><tr><td>ARET records created in OEEPI will have an aret.refer the same as the</td></tr><tr><td>OEET header reference.</td></tr><tr><td>Type 1-Service Charges and the corresponding type 11-Payment records</td></tr><tr><td>created in ARER will contain "On Balance of" and the amount the</td></tr><tr><td>service charge was calculated on.</td></tr><tr><td>The type 7-Check transactions will usually contain the aret.refer "Cash Rec Jrnl" and the journal number from ARECE. If it is for a split check, the type 7-Check transactions will have an aret.refer of "SPLIT CHECK".</td></tr><tr><td>Type 3-Unapplied Cash transactions will contain the aret.refer "AR</td></tr><tr><td>Cash Rec Jrnl" and the journal number from ARECE.</td></tr><tr><td>Types 0-Invoice and 11-Payment transactions for CODs will create aret.refer's of "Uncoll COD Amt-DD/MM/YY" if the full amount is not paid.</td></tr><tr><td>Type 11-Payment Records will have an aret.refer of "Split Into #</td></tr><tr><td>Pmts" if the number of payments is changed in apemp.</td></tr></table>
+</div>
+</body>
+</html>

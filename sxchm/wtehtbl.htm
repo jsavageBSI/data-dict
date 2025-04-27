@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>WTEH - Warehouse Transfer Header</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>WTEH - Warehouse Transfer Header</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="wteh_k-fmwhse.htm">k-fmwhse</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wteh_k-jrnlno.htm">k-jrnlno</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wteh_k-jrnlno2.htm">k-jrnlno2</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wteh_k-jrnlno3.htm">k-jrnlno3</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wteh_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wteh_k-towhse.htm">k-towhse</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="wteh_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="wteh_k-wteh.htm">k-wteh</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="wteh_actfreight.htm">actfreight</a></td><td>Actual Freight Amount</td><td>Decimal</td><td>zzzzzz9.99</td><td></tr>
+<tr><td><a href="wteh_addonamt.htm">addonamt</a></td><td>Addon Amt</td><td>Decimal[2]</td><td>zzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_addondist.htm">addondist</a></td><td>Addon Distributed</td><td>Decimal[2]</td><td>zzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_addonnet.htm">addonnet</a></td><td>Net Addon Amount</td><td>Decimal[2]</td><td>zzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_addontype.htm">addontype</a></td><td>Addon Type</td><td>Character[2]</td><td>x(1)</td><td></tr>
+<tr><td><a href="wteh_autoaltordno.htm">autoaltordno</a></td><td>Billed OE#</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="wteh_autoaltordsuf.htm">autoaltordsuf</a></td><td>Billed OE Suf</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="wteh_autoaltwhsecd.htm">autoaltwhsecd</a></td><td>WT Billed Status</td><td>Character</td><td>x</td><td></tr>
+<tr><td><a href="wteh_boexistsfl.htm">boexistsfl</a></td><td>BO Exists</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_borelfl.htm">borelfl</a></td><td>BO Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_bostage.htm">bostage</a></td><td>BO Stage</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="wteh_confirmctnfl.htm">confirmctnfl</a></td><td>All Packages Shipped</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_cono.htm">cono</a></td><td>Company #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wteh_cono2.htm">cono2</a></td><td>Co # To</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wteh_countrycd.htm">countrycd</a></td><td>Country</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_createdby.htm">createdby</a></td><td>Created By</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wteh_divno.htm">divno</a></td><td>Division #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wteh_drdeldt.htm">drdeldt</a></td><td>Direct Route Delivery Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_drdeldttz.htm">drdeldttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_drdeltm.htm">drdeltm</a></td><td>Direct Route Delivery Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="wteh_drexpfl.htm">drexpfl</a></td><td>Direct Route Export Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_duedt.htm">duedt</a></td><td>Due</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_duedttz.htm">duedttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_dueoverfl.htm">dueoverfl</a></td><td>Due Dt Override</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_enterdt.htm">enterdt</a></td><td>Entered</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_enterdttz.htm">enterdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_esbasnfl.htm">esbasnfl</a></td><td>ESB Advance Ship Notice Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_esbreceivedeliveryfl.htm">esbreceivedeliveryfl</a></td><td>ESB Receive Delivery Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_esbshipmentfl.htm">esbshipmentfl</a></td><td>ESB Shipment Flag</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_extshipinstr.htm">extshipinstr</a></td><td>Ext Shipping Instructions</td><td>Character</td><td>x(256)</td><td></tr>
+<tr><td><a href="wteh_fmcapexrate.htm">fmcapexrate</a></td><td>From Cap Addon Exchange Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_fmcurrencyty.htm">fmcurrencyty</a></td><td>From Currency</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_fmexpexrate.htm">fmexpexrate</a></td><td>From Expense Addon Exchange Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_fminvexrate.htm">fminvexrate</a></td><td>Division to Company Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_ignoreltfl.htm">ignoreltfl</a></td><td>Ignore Lead Time</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_immedwtfl.htm">immedwtfl</a></td><td>Immediate WT</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_jrnlno.htm">jrnlno</a></td><td>Jrnl #</td><td>Integer</td><td>>>>>>>>9</td><td></tr>
+<tr><td><a href="wteh_jrnlno2.htm">jrnlno2</a></td><td>Receiving Jrnl</td><td>Integer</td><td>>>>>>>>9</td><td></tr>
+<tr><td><a href="wteh_jrnlno3.htm">jrnlno3</a></td><td>Rcv Incompl Jrnl</td><td>Integer</td><td>>>>>>>>9</td><td></tr>
+<tr><td><a href="wteh_keyindex.htm">keyindex</a></td><td>Word Index</td><td>Character</td><td>X(8)</td><td></tr>
+<tr><td><a href="wteh_langcd.htm">langcd</a></td><td>Language Code</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_laststagecd.htm">laststagecd</a></td><td>Last Stage</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="wteh_linefl.htm">linefl</a></td><td>Lines Altered</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_lspidentifier.htm">lspidentifier</a></td><td>LSP Identifier</td><td>Character[10]</td><td>x(256)</td><td></tr>
+<tr><td><a href="wteh_lspinvregstatdttmz.htm">lspinvregstatdttmz</a></td><td>LSP Invoice Registration Status Date</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_lspinvregstatus.htm">lspinvregstatus</a></td><td>LSP Invoice Registration Status</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="wteh_lspuuid.htm">lspuuid</a></td><td>LSP UUID</td><td>Character</td><td>x(256)</td><td></tr>
+<tr><td><a href="wteh_markupaddonfl.htm">markupaddonfl</a></td><td>Markup Addons</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_nextlineno.htm">nextlineno</a></td><td>Next Line #</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="wteh_nocatwghti.htm">nocatwghti</a></td><td># Cat Wt In</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="wteh_nocatwghto.htm">nocatwghto</a></td><td># Cat Wt Out</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="wteh_noerrs.htm">noerrs</a></td><td>No of Errors</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wteh_nolineitem.htm">nolineitem</a></td><td># of Lines</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="wteh_nopackages.htm">nopackages</a></td><td># Packages</td><td>Integer</td><td>zzz9</td><td></tr>
+<tr><td><a href="wteh_nosnlotsi.htm">nosnlotsi</a></td><td># SN/Lots In</td><td>Decimal</td><td>>>>>>>9.99</td><td></tr>
+<tr><td><a href="wteh_nosnlotso.htm">nosnlotso</a></td><td># SN/Lots Out</td><td>Decimal</td><td>zzzzzz9.99</td><td></tr>
+<tr><td><a href="wteh_notesfl.htm">notesfl</a></td><td>Notes</td><td>Character</td><td>x(1)</td><td></tr>
+<tr><td><a href="wteh_notimeschg.htm">notimeschg</a></td><td># Times Chg</td><td>Integer</td><td>>>>>9</td><td></tr>
+<tr><td><a href="wteh_nounappr.htm">nounappr</a></td><td># Unapproved</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="wteh_openinit.htm">openinit</a></td><td>Open Initials</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_operinit.htm">operinit</a></td><td>Last Change By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_orderaltno.htm">orderaltno</a></td><td>Related Order #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="wteh_orderaltsuf.htm">orderaltsuf</a></td><td>Related Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="wteh_orderdt.htm">orderdt</a></td><td></td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_orderdttz.htm">orderdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_ototqtyshp.htm">ototqtyshp</a></td><td>Old Stk Qty Shipped</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_pickcnt.htm">pickcnt</a></td><td># Pick Tickets Printed</td><td>Integer</td><td>>9</td><td></tr>
+<tr><td><a href="wteh_pickedby.htm">pickedby</a></td><td>Picked By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_pkgid.htm">pkgid</a></td><td>Package ID</td><td>Character</td><td>x(15)</td><td></tr>
+<tr><td><a href="wteh_printeddt.htm">printeddt</a></td><td>Printed</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_printeddttz.htm">printeddttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_printfl.htm">printfl</a></td><td>Printed</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_rcvoperinit.htm">rcvoperinit</a></td><td>Rcv Init</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_reasoncode.htm">reasoncode</a></td><td>Reason Code</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_receiptdt.htm">receiptdt</a></td><td>Receipt</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_receiptdttz.htm">receiptdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_refer.htm">refer</a></td><td>Ref</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="wteh_reqshipdt.htm">reqshipdt</a></td><td>Req Ship</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_reqshipdttz.htm">reqshipdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="wteh_rushfl.htm">rushfl</a></td><td>Rush</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_shipdt.htm">shipdt</a></td><td>Ship</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_shipdttz.htm">shipdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_shipfmwhse.htm">shipfmwhse</a></td><td>From Whse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_shipinstr.htm">shipinstr</a></td><td>Instructions</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="wteh_shippingpt.htm">shippingpt</a></td><td>Shipping Point</td><td>Character</td><td>x(3)</td><td></tr>
+<tr><td><a href="wteh_shiptoaddr.htm">shiptoaddr</a></td><td>Ship</td><td>Character[2]</td><td>x(30)</td><td></tr>
+<tr><td><a href="wteh_shiptoaddr3.htm">shiptoaddr3</a></td><td>Ship</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="wteh_shiptocity.htm">shiptocity</a></td><td>City</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="wteh_shiptonm.htm">shiptonm</a></td><td>Ship To:</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="wteh_shiptost.htm">shiptost</a></td><td></td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_shiptowhse.htm">shiptowhse</a></td><td>Ship To Whse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_shiptozip.htm">shiptozip</a></td><td></td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="wteh_shipviaty.htm">shipviaty</a></td><td>Ship</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wteh_shprestrictcd.htm">shprestrictcd</a></td><td>Ship Restrictions</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_spechdlcd.htm">spechdlcd</a></td><td>Special Handling</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_stagearea.htm">stagearea</a></td><td>Staging Area</td><td>Character</td><td>xx/xx/xxx/xxx</td><td></tr>
+<tr><td><a href="wteh_stagecd.htm">stagecd</a></td><td>Stg</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="wteh_tmsfl.htm">tmsfl</a></td><td>Infor TM Order</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_tocapexrate.htm">tocapexrate</a></td><td>To Cap Addon Exchange Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_tocurrencyty.htm">tocurrencyty</a></td><td>To Currency</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_toexpexrate.htm">toexpexrate</a></td><td>To Expense Addon Exchange Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_toinvexrate.htm">toinvexrate</a></td><td>Company to Division Rate</td><td>Decimal</td><td>>>>>>9.9999999</td><td></tr>
+<tr><td><a href="wteh_totcubes.htm">totcubes</a></td><td>Cube</td><td>Decimal</td><td>zzzzzzzz9.99999</td><td></tr>
+<tr><td><a href="wteh_totlineamt.htm">totlineamt</a></td><td>Order</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totordamt.htm">totordamt</a></td><td>Order Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totqtyact.htm">totqtyact</a></td><td>Actual Shipped</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totqtyord.htm">totqtyord</a></td><td>Qty Ordered</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totqtyrcv.htm">totqtyrcv</a></td><td>Quantity Received</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totqtyshp.htm">totqtyshp</a></td><td>Qty Shipped</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totrcvamt.htm">totrcvamt</a></td><td>Receive Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totshipamt.htm">totshipamt</a></td><td>Ship Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="wteh_totweight.htm">totweight</a></td><td>Weight</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="wteh_transdt.htm">transdt</a></td><td>Last Change Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wteh_transproc.htm">transproc</a></td><td>Trans Proc</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wteh_transtm.htm">transtm</a></td><td>Last Change Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="wteh_transtype.htm">transtype</a></td><td>Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="wteh_user1.htm">user1</a></td><td>User 1</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user10.htm">user10</a></td><td>User 10</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user11.htm">user11</a></td><td>User 11</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user12.htm">user12</a></td><td>User 12</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user13.htm">user13</a></td><td>User 13</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user14.htm">user14</a></td><td>User 14</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user15.htm">user15</a></td><td>User 15</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user16.htm">user16</a></td><td>User 16</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user17.htm">user17</a></td><td>User 17</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user18.htm">user18</a></td><td>User 18</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user19.htm">user19</a></td><td>User 19</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user2.htm">user2</a></td><td>User 2</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user20.htm">user20</a></td><td>User 20</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user21.htm">user21</a></td><td>User 21</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user22.htm">user22</a></td><td>User 22</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user23.htm">user23</a></td><td>User 23</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user24.htm">user24</a></td><td>User 24</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user3.htm">user3</a></td><td>User 3</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user4.htm">user4</a></td><td>User 4</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user5.htm">user5</a></td><td>User 5</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wteh_user6.htm">user6</a></td><td>User 6</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="wteh_user7.htm">user7</a></td><td>User 7</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="wteh_user8.htm">user8</a></td><td>User 8</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_user9.htm">user9</a></td><td>User 9</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wteh_wletsetno.htm">wletsetno</a></td><td>WLET Set#</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="wteh_wordindexfl.htm">wordindexfl</a></td><td>Force Word Index Rebuild</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wteh_wtauth.htm">wtauth</a></td><td>Authorization</td><td>Integer</td><td>>>>>>>>9</td><td></tr>
+<tr><td><a href="wteh_wtno.htm">wtno</a></td><td>WT #</td><td>Integer</td><td>zzzzzz9</td><td></tr>
+<tr><td><a href="wteh_wtsuf.htm">wtsuf</a></td><td></td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="wteh_zone.htm">zone</a></td><td>Zone</td><td>Character</td><td>x(3)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>DELETE</td><td>d-wteh.p</td><td></tr>
+<tr><td>replication-delete</td><td>rd-wteh.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-wteh.p</td><td></tr>
+<tr><td>WRITE</td><td>w-wteh.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

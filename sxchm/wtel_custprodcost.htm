@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>wtel.custprodcost - Customer Cost</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>wtel.custprodcost - Customer Cost</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Customer Cost</td></tr><tr><td align="right">Type:&nbsp;</td><td>decimal</td></tr><tr><td align="right">Format:&nbsp;</td><td>>>>>>>9.99999</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>5</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>Customer Cost When the Customer Inventory is Shipped</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Loads in WTES during the Final Update.  If the Shipping Whse is Storeroom</td></tr><tr><td>managed and there is stock available in that warehouse that is Customer</td></tr><tr><td>Owned, then the new field is loaded with the Customer Cost off the ICSW</td></tr><tr><td>record of the shipping whse.  There is a setting at the Whse level to determine</td></tr><tr><td>which cost to use in ICSW - Fixed Customer Cost or Average Customer Cost.</td></tr><tr><td></td></tr><tr><td>The Cost loaded on the WT Line is used in WTEI for the Customer Owned</td></tr><tr><td>quantity that is shipped to the receiving warehouse for ICETC updates, </td></tr><tr><td>Customer Average Cost calculations, etc.</td></tr><tr><td></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>Only loads if there is Customer Owned inverntory to transfer in WTES.</td></tr></table>
+</div>
+</body>
+</html>

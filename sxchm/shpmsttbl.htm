@@ -1,0 +1,47 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>SHPMST - Table used for generation of shipping manifests</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>SHPMST - Table used for generation of shipping manifests</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="shpmst_co_wh_carrier_manifest.htm">co_wh_carrier_manifest</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="shpmst_co_wh_dock_trailer_carrier.htm">co_wh_dock_trailer_carrier</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpmst_dock_status.htm">dock_status</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpmst_id.htm">id</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="shpmst_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="shpmst_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpmst_status_chrono.htm">status_chrono</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="shpmst_trailer_status.htm">trailer_status</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="shpmst_carrier_id.htm">carrier_id</a></td><td>Carrier Id</td><td>Character</td><td>x(6)</td><td></tr>
+<tr><td><a href="shpmst_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="shpmst_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="shpmst_date_time.htm">date_time</a></td><td>Shipped Date</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="shpmst_date_timetz.htm">date_timetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="shpmst_dock_id.htm">dock_id</a></td><td>Dock Id</td><td>Character</td><td>x(6)</td><td></tr>
+<tr><td><a href="shpmst_manifest_id.htm">manifest_id</a></td><td>Manifest Id</td><td>Integer</td><td>999999999</td><td></tr>
+<tr><td><a href="shpmst_manifest_num.htm">manifest_num</a></td><td>Manifest Number</td><td>Integer</td><td>>>>>>>>>9</td><td></tr>
+<tr><td><a href="shpmst_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="shpmst_row_status.htm">row_status</a></td><td>Status</td><td>Logical</td><td>Closed/Open</td><td></tr>
+<tr><td><a href="shpmst_trailer_num.htm">trailer_num</a></td><td>Trailer #</td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="shpmst_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="shpmst_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="shpmst_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="shpmst_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="shpmst_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="shpmst_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>CREATE</td><td>n-shpmst.p</td><td></tr>
+<tr><td>replication-delete</td><td>rd-shpmst.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-shpmst.p</td><td></tr>
+<tr><td>WRITE</td><td>w-shpmst.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

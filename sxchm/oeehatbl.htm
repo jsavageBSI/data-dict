@@ -1,0 +1,94 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>OEEHA - Credit Card Transaction File
+
+
+</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>OEEHA - Credit Card Transaction File
+
+
+</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="oeeha_k-batch.htm">k-batch</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeeha_k-ccqueue.htm">k-ccqueue</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeeha_k-oeeha.htm">k-oeeha</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="oeeha_k-process.htm">k-process</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeeha_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="oeeha_k-statustype.htm">k-statustype</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeeha_k-submit.htm">k-submit</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeeha_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="oeeha_amount.htm">amount</a></td><td>Amount</td><td>Decimal</td><td>zzzzzzzz9.99</td><td></tr>
+<tr><td><a href="oeeha_authamt.htm">authamt</a></td><td>Authorization Amount</td><td>Decimal</td><td>zzzzzzzz9.99</td><td></tr>
+<tr><td><a href="oeeha_avadd.htm">avadd</a></td><td>Address Verification</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="oeeha_avzip.htm">avzip</a></td><td>Address Verification Zip</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="oeeha_bankno.htm">bankno</a></td><td>Bank #</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="oeeha_bosuf.htm">bosuf</a></td><td>Backorder Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="oeeha_cardid.htm">cardid</a></td><td>CPC Card ID</td><td>Integer</td><td>zzz9</td><td></tr>
+<tr><td><a href="oeeha_cardno.htm">cardno</a></td><td>Credit Card #</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="oeeha_category.htm">category</a></td><td>Category</td><td>Character</td><td>x(17)</td><td></tr>
+<tr><td><a href="oeeha_ccholdbofl.htm">ccholdbofl</a></td><td>Hold Credit Card</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="oeeha_charmediaauth.htm">charmediaauth</a></td><td>Authorization</td><td>Character</td><td>x(6)</td><td></tr>
+<tr><td><a href="oeeha_charpreauth.htm">charpreauth</a></td><td>PreAuthorization</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="oeeha_cmc.htm">cmc</a></td><td>ICVerify CMC</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="oeeha_cmm.htm">cmm</a></td><td>ICVerify CMM</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="oeeha_commcd.htm">commcd</a></td><td>Communication Status</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="oeeha_cono.htm">cono</a></td><td>Company #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="oeeha_createdt.htm">createdt</a></td><td>Create Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeeha_createdttz.htm">createdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="oeeha_createtm.htm">createtm</a></td><td>Create Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="oeeha_currproc.htm">currproc</a></td><td>Created During</td><td>Character</td><td>x(5)</td><td></tr>
+<tr><td><a href="oeeha_destzip.htm">destzip</a></td><td>CPC Destination Zip Code</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="oeeha_exp.htm">exp</a></td><td>Expiration Date</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="oeeha_mediaauth.htm">mediaauth</a></td><td>Authorization</td><td>Integer</td><td>zzzzz9</td><td></tr>
+<tr><td><a href="oeeha_mediacd.htm">mediacd</a></td><td>Card Type</td><td>Integer</td><td>z9</td><td></tr>
+<tr><td><a href="oeeha_merchantid.htm">merchantid</a></td><td>Merchant ID</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="oeeha_operinit.htm">operinit</a></td><td>Last Change By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="oeeha_orderno.htm">orderno</a></td><td>Order #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="oeeha_ordersuf.htm">ordersuf</a></td><td>Order Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="oeeha_origamt.htm">origamt</a></td><td>Original Auth Amount</td><td>Decimal</td><td>zzzzzzzz9.99</td><td></tr>
+<tr><td><a href="oeeha_origproccd.htm">origproccd</a></td><td>Original Process Code</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="oeeha_preauthno.htm">preauthno</a></td><td>PreAuthorization #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="oeeha_processcd.htm">processcd</a></td><td>Status</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="oeeha_processno.htm">processno</a></td><td>Processor</td><td>Integer</td><td>zzz9</td><td></tr>
+<tr><td><a href="oeeha_respdt.htm">respdt</a></td><td>Response Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeeha_respdttz.htm">respdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="oeeha_response.htm">response</a></td><td>Response</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="oeeha_resptm.htm">resptm</a></td><td>Response Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="oeeha_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="oeeha_saleamt.htm">saleamt</a></td><td>Invoiced Amount</td><td>Decimal</td><td>zzzzzzzz9.99</td><td></tr>
+<tr><td><a href="oeeha_seqno.htm">seqno</a></td><td>Sequence #</td><td>Integer</td><td>zz9</td><td></tr>
+<tr><td><a href="oeeha_statustype.htm">statustype</a></td><td>Status</td><td>Logical</td><td>active/inactive</td><td></tr>
+<tr><td><a href="oeeha_submitdt.htm">submitdt</a></td><td>Submit Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeeha_submitdttz.htm">submitdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="oeeha_submittm.htm">submittm</a></td><td>Submit Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="oeeha_taxamt.htm">taxamt</a></td><td>CPC Tax Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="oeeha_transcd.htm">transcd</a></td><td>Transaction</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="oeeha_transdt.htm">transdt</a></td><td>Last Change Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeeha_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="oeeha_transproc.htm">transproc</a></td><td>Trans Proc</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="oeeha_transtm.htm">transtm</a></td><td>Last Change Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="oeeha_user1.htm">user1</a></td><td>User 1</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="oeeha_user2.htm">user2</a></td><td>User 2</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="oeeha_user3.htm">user3</a></td><td>User 3</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="oeeha_user4.htm">user4</a></td><td>User 4</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="oeeha_user5.htm">user5</a></td><td>User 5</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="oeeha_user6.htm">user6</a></td><td>User 6</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="oeeha_user7.htm">user7</a></td><td>User 7</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="oeeha_user8.htm">user8</a></td><td>User 8</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeeha_user9.htm">user9</a></td><td>User 9</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-oeeha.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-oeeha.p</td><td></tr>
+<tr><td>Write</td><td>w-oeeha.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>apet.disputefl - </title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>apet.disputefl - </b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>?</td></tr><tr><td align="right">Type:&nbsp;</td><td>logical</td></tr><tr><td align="right">Format:&nbsp;</td><td>yes/no</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>no</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>yes</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>Disputed - If 'Yes', Invoice is On Hold and will not be Paid</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>This flag will allow the option to designate the transaction you are</td></tr><tr><td>entering as being disputed.  Transactions which are disputed will only</td></tr><tr><td>be affected when you attempt to perform Accounts Payable Pay Invoices Due (APEP).  You will not be allowed to pay disputed invoices.  Disputed transactions will print on the APRC report under the disputed column. This will allow you to review them before processing APEP.</td></tr><tr><td>Enterable: Invoices (transcd = 0), Misc. Credits (transcd = 5), and</td></tr><tr><td>Debit Memos (transcd = 8) are the only transactins which may be</td></tr><tr><td>disputed.  Entering "yes" to make a transaction disputed has no effect</td></tr><tr><td>on the Vendor's balances, General Ledger, or Accounts Payable.  The</td></tr><tr><td>disputefl can also be set in Accounts Payable Entry Modify Payments -</td></tr><tr><td>Change Open Item (APEMO) and Accounts Payable Entery Modify Payments - Schedule Payments (APEMP).</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>Reports:  Disputed transactions will also appear on the Accounts Payable</td></tr><tr><td>Cash Flow Report (APRAF).</td></tr><tr><td>Entry:  The dispute flag can also be set in Accounts Payable Batch Entry - Transaction Entry Batch (APEBT).</td></tr></table>
+</div>
+</body>
+</html>

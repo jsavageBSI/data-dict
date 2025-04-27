@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>VENMST - The master vendor table</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>VENMST - The master vendor table</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="venmst_company_warehouse_id.htm">company_warehouse_id</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="venmst_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="venmst_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="venmst_addr.htm">addr</a></td><td>Address</td><td>Character[2]</td><td>x(30)</td><td></tr>
+<tr><td><a href="venmst_addr_ext.htm">addr_ext</a></td><td>Address</td><td>Character[3]</td><td>x(30)</td><td></tr>
+<tr><td><a href="venmst_city.htm">city</a></td><td>City</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="venmst_contact_name.htm">contact_name</a></td><td>Contact Name</td><td>Character</td><td>X(30)</td><td></tr>
+<tr><td><a href="venmst_country.htm">country</a></td><td>Country</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="venmst_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="venmst_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="venmst_duns_number.htm">duns_number</a></td><td>DUNS Number</td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="venmst_edi_code.htm">edi_code</a></td><td>EDI Code</td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="venmst_fax_number.htm">fax_number</a></td><td>Fax Number</td><td>Character</td><td>X(20)</td><td></tr>
+<tr><td><a href="venmst_phone_number.htm">phone_number</a></td><td>Phone Number</td><td>Character</td><td>X(20)</td><td></tr>
+<tr><td><a href="venmst_qa_inspection.htm">qa_inspection</a></td><td>Q/A Inspection</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="venmst_qa_instructions.htm">qa_instructions</a></td><td>Q/A Instructions</td><td>Character</td><td>X(55)</td><td></tr>
+<tr><td><a href="venmst_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="venmst_row_status.htm">row_status</a></td><td>Active</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="venmst_state.htm">state</a></td><td>State</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="venmst_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="venmst_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="venmst_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="venmst_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="venmst_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="venmst_vendor_id.htm">vendor_id</a></td><td>Vendor ID</td><td>Character</td><td>X(9)</td><td></tr>
+<tr><td><a href="venmst_vend_name.htm">vend_name</a></td><td>Vendor Name</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="venmst_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="venmst_zip.htm">zip</a></td><td>Zip Code</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-venmst.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-venmst.p</td><td></tr>
+<tr><td>WRITE</td><td>w-venmst.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

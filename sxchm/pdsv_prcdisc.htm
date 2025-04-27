@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>pdsv.prcdisc - Discount</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>pdsv.prcdisc - Discount</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Discount</td></tr><tr><td align="right">Type:&nbsp;</td><td>decimal</td></tr><tr><td align="right">Format:&nbsp;</td><td>zz9.999</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>3</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>9</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>If "Prices" And "Discounts" Exist, "Discounts" Will be Cleared</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Discount in percent.  This is the discount that will be applied against</td></tr><tr><td>the 'vendorcost' field.  It should be entered as a percent to be taken</td></tr><tr><td>off, for example 10% off of cost.</td></tr><tr><td></td></tr><tr><td>This is an array of nine elements.  The first element will be used until</td></tr><tr><td>the first quantity break level is reached.  At that point the second</td></tr><tr><td>level will be used until the second level is reached, etc.</td></tr><tr><td></td></tr><tr><td>These levels are used in all programs that calculate the cost of goods</td></tr><tr><td>for purchasing.  This includes POET, POERR, and POERM.</td></tr><tr><td></td></tr><tr><td>Note that price multipliers and discount levels are mutually exclusive.</td></tr><tr><td>The quantity break points are applied to find EITHER a price multiplier</td></tr><tr><td>or a discount, not both.  Price multipliers take priority over</td></tr><tr><td>discounts - the discount column will be cleared if the price multiplier</td></tr><tr><td>column is used.</td></tr></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>INV_ADJ - Holds adjustments/corrections to inventory</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>INV_ADJ - Holds adjustments/corrections to inventory</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="inv_adj_co_wh_adj.htm">co_wh_adj</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="inv_adj_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="inv_adj_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="inv_adj_adj_code.htm">adj_code</a></td><td>Adjustment Code</td><td>Character</td><td>x(6)</td><td></tr>
+<tr><td><a href="inv_adj_adj_desc.htm">adj_desc</a></td><td>Description</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="inv_adj_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="inv_adj_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="inv_adj_enter_loc.htm">enter_loc</a></td><td>Location Required</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="inv_adj_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="inv_adj_status_1.htm">status_1</a></td><td></td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="inv_adj_status_2.htm">status_2</a></td><td></td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="inv_adj_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="inv_adj_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="inv_adj_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="inv_adj_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="inv_adj_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="inv_adj_tran_types.htm">tran_types</a></td><td>Transaction Types</td><td>Character</td><td>x(50)</td><td></tr>
+<tr><td><a href="inv_adj_valid_status_1.htm">valid_status_1</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="inv_adj_valid_status_2.htm">valid_status_2</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="inv_adj_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-inv_adj.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-inv_adj.p</td><td></tr>
+<tr><td>Write</td><td>w-inv_adj.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

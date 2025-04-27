@@ -1,0 +1,33 @@
+body
+{
+	margin:0; 
+	padding:0;
+	height:100%;
+	overflow:none
+}
+
+a:link
+{
+	color: #B5121B;
+	font-weight:bold;
+	text-decoration: none
+}
+
+
+table
+{
+table-border-color-light: rgb(204,153,255);
+table-border-color-dark: rgb(102,0,102); 
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: Arial, Book Antiqua, Times New Roman, Times;
+	color: #B5121B;
+}
+
+div.mainsect
+{
+  height:auto;
+  overflow:visible;
+
+}

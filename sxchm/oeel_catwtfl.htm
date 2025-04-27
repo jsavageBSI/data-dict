@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>oeel.catwtfl - Catch Wt</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>oeel.catwtfl - Catch Wt</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Catch Wt</td></tr><tr><td align="right">Type:&nbsp;</td><td>logical</td></tr><tr><td align="right">Format:&nbsp;</td><td>yes/no</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>no</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>yes</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Indicates if the charge quantity needs to be entered on the line item for a catch weight product. If the quantity shipped is greater than 0 and the charge quantity = 0, this flag will be yes. Otherwise it will be no. (NOTE: we do not allow enter of catch weight products in ICSP as of V3.0. Keep all logic that references charge quantity as we may reinstitute catch weight in a new form in the future.)</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>yes = quantity shipped &amp;gt; 0 and charge quantity = 0</td></tr><tr><td>no  = not a catch weight product or the chrage quantity has been entered  on a shipped line. The charge quantity is enterable in OEES.</td></tr><tr><td>oeeh.nocatwght is accumulated from each line with a catwtfl = yes</td></tr></table>
+</div>
+</body>
+</html>

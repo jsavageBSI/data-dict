@@ -1,0 +1,82 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>RTDET - Receipt transaction detail</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>RTDET - Receipt transaction detail</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="rtdet_co_wh_abs.htm">co_wh_abs</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_co_wh_po_suf_line_seq.htm">co_wh_po_suf_line_seq</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_co_wh_status_po_suf_line_seq.htm">co_wh_status_po_suf_line_seq</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_co_wh_vendor_status.htm">co_wh_vendor_status</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_id_abs.htm">id_abs</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_id_desc.htm">id_desc</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_id_item.htm">id_item</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="rtdet_id_line.htm">id_line</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="rtdet_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="rtdet_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="rtdet_abs_num.htm">abs_num</a></td><td>Absolute Item Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="rtdet_act_quantity.htm">act_quantity</a></td><td>Actual Quantity</td><td>Decimal</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="rtdet_asn_flag.htm">asn_flag</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="rtdet_bo_count.htm">bo_count</a></td><td>B/O Count</td><td>Integer</td><td>>>9</td><td></tr>
+<tr><td><a href="rtdet_bo_quantity.htm">bo_quantity</a></td><td>B/O Quantity</td><td>Decimal</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="rtdet_case_quantity.htm">case_quantity</a></td><td>Case Quantity</td><td>Decimal</td><td>>>>,>>9.9999</td><td></tr>
+<tr><td><a href="rtdet_comments.htm">comments</a></td><td>Comments</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="rtdet_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="rtdet_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="rtdet_delivery.htm">delivery</a></td><td>Delivery</td><td>Date</td><td>99/99/9999</td><td></tr>
+<tr><td><a href="rtdet_deliverytz.htm">deliverytz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="rtdet_exp_quantity.htm">exp_quantity</a></td><td>Expected Quantity</td><td>Decimal</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="rtdet_item_cost.htm">item_cost</a></td><td>Cost</td><td>Decimal</td><td>$>>>,>>9.99</td><td></tr>
+<tr><td><a href="rtdet_item_desc.htm">item_desc</a></td><td>Item Description</td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="rtdet_item_num.htm">item_num</a></td><td>Alternate Item Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="rtdet_line_indicator.htm">line_indicator</a></td><td></td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="rtdet_line_num.htm">line_num</a></td><td>Line Number</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="rtdet_line_sequence.htm">line_sequence</a></td><td></td><td>Integer</td><td>>9</td><td></tr>
+<tr><td><a href="rtdet_lot.htm">lot</a></td><td>Lot</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="rtdet_ordered_qty.htm">ordered_qty</a></td><td>Quantity Ordered</td><td>Decimal</td><td>->>,>>9.99</td><td></tr>
+<tr><td><a href="rtdet_packer.htm">packer</a></td><td></td><td>Character</td><td>X(14)</td><td></tr>
+<tr><td><a href="rtdet_packing_list.htm">packing_list</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="rtdet_percent_fill.htm">percent_fill</a></td><td>Percent Fill</td><td>Decimal</td><td>->>,>>9.99</td><td></tr>
+<tr><td><a href="rtdet_po_line.htm">po_line</a></td><td></td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="rtdet_po_number.htm">po_number</a></td><td>PO Number</td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="rtdet_po_suffix.htm">po_suffix</a></td><td>PO Suffix</td><td>Character</td><td>X(2)</td><td></tr>
+<tr><td><a href="rtdet_po_type.htm">po_type</a></td><td>PO Type</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="rtdet_prod_desc.htm">prod_desc</a></td><td></td><td>Character</td><td>x(30)</td><td></tr>
+<tr><td><a href="rtdet_qty_unavail.htm">qty_unavail</a></td><td></td><td>Decimal</td><td>>,>>>,>>>.99</td><td></tr>
+<tr><td><a href="rtdet_quantity.htm">quantity</a></td><td>Quantity Left</td><td>Decimal</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="rtdet_rd_po_type.htm">rd_po_type</a></td><td></td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="rtdet_receiver_num.htm">receiver_num</a></td><td></td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="rtdet_return_fl.htm">return_fl</a></td><td></td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="rtdet_ret_line.htm">ret_line</a></td><td>Line</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="rtdet_ret_line_sequence.htm">ret_line_sequence</a></td><td></td><td>Integer</td><td>>9</td><td></tr>
+<tr><td><a href="rtdet_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="rtdet_row_status.htm">row_status</a></td><td>Status</td><td>Character</td><td>x</td><td></tr>
+<tr><td><a href="rtdet_rtn_order.htm">rtn_order</a></td><td>Order</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="rtdet_rtn_order_suffix.htm">rtn_order_suffix</a></td><td>Order Suffix</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="rtdet_rt_id.htm">rt_id</a></td><td>RT Id</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="rtdet_special_handling.htm">special_handling</a></td><td>Special Handling</td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="rtdet_stock_stat.htm">stock_stat</a></td><td>Stock Status</td><td>Character</td><td>X(1)</td><td></tr>
+<tr><td><a href="rtdet_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="rtdet_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="rtdet_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="rtdet_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="rtdet_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="rtdet_uom.htm">uom</a></td><td>Unit of Measure</td><td>Character</td><td>X(4)</td><td></tr>
+<tr><td><a href="rtdet_vendor_id.htm">vendor_id</a></td><td>Vendor ID</td><td>Character</td><td>X(9)</td><td></tr>
+<tr><td><a href="rtdet_vend_item.htm">vend_item</a></td><td>Vendor Item</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="rtdet_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-rtdet.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-rtdet.p</td><td></tr>
+<tr><td>Write</td><td>w-rtdet.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

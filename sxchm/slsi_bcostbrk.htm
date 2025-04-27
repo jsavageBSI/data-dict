@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>slsi.bcostbrk - </title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>slsi.bcostbrk - </b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>?</td></tr><tr><td align="right">Type:&nbsp;</td><td>integer</td></tr><tr><td align="right">Format:&nbsp;</td><td>zzz9</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>9</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>Beginning Column or Field Number of Cost Breaks</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>This field describes where in the Import file the Product Cost Breaks</td></tr><tr><td>can be found.</td></tr><tr><td>.</td></tr><tr><td>If the Import File Type (slsi.filetype) = "f" (Fixed Length) then this</td></tr><tr><td>number indicates the beginning column of the Cost Breaks (one for each</td></tr><tr><td>element of the array).</td></tr><tr><td>If the Import File Type (slsi.filetype) = "p" (Progress) or "d"</td></tr><tr><td>(Delimited) then this number indicates the field number of the Cost</td></tr><tr><td>Breaks (one for each element of the array).</td></tr><tr><td>.</td></tr><tr><td>It is enterable by the user through Supplier Link - Setup Import</td></tr><tr><td>Definitions - SLSIQ (SLSI F8-Qty Breaks)</td></tr><tr><td>.</td></tr><tr><td>The field is used to contruct the SLED.SLCOSTBRK array.</td></tr><tr><td>.</td></tr><tr><td>Last changed dww 02/11/94</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>Numeric: 0-9999</td></tr><tr><td>Array: 9 elements</td></tr><tr><td>A value of zero means that this field isn't mapped and the Cost Break</td></tr><tr><td>(SLED.SLCOSTBRK) for that array element will not be imported.</td></tr></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>OEELCR - Correction and Return lines tied to Origintal order line</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>OEELCR - Correction and Return lines tied to Origintal order line</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="oeelcr_k-oeelcr.htm">k-oeelcr</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="oeelcr_k-origord.htm">k-origord</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="oeelcr_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="oeelcr_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="oeelcr_cono.htm">cono</a></td><td>Company #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="oeelcr_crrmlineno.htm">crrmlineno</a></td><td>CR/RM Line#</td><td>Integer</td><td>>>></td><td></tr>
+<tr><td><a href="oeelcr_crrmorderno.htm">crrmorderno</a></td><td>CR/RM Order #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="oeelcr_crrmordersuf.htm">crrmordersuf</a></td><td>CR/RM Order Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="oeelcr_jrnlno.htm">jrnlno</a></td><td>Journal #</td><td>Int64</td><td>>>>>>>>9</td><td></tr>
+<tr><td><a href="oeelcr_lineno.htm">lineno</a></td><td>Line#</td><td>Integer</td><td>>>></td><td></tr>
+<tr><td><a href="oeelcr_operinit.htm">operinit</a></td><td>Last Change By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="oeelcr_orderno.htm">orderno</a></td><td>Order #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="oeelcr_ordersuf.htm">ordersuf</a></td><td>Order Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="oeelcr_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="oeelcr_setno.htm">setno</a></td><td>Set #</td><td>Int64</td><td>>>>>9</td><td></tr>
+<tr><td><a href="oeelcr_transdt.htm">transdt</a></td><td>Last Change Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeelcr_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="oeelcr_transproc.htm">transproc</a></td><td>Trans Proc</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="oeelcr_transtm.htm">transtm</a></td><td>Last Change Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="oeelcr_transtype.htm">transtype</a></td><td>Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="oeelcr_user1.htm">user1</a></td><td>User 1</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="oeelcr_user2.htm">user2</a></td><td>User 2</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="oeelcr_user3.htm">user3</a></td><td>User 3</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="oeelcr_user4.htm">user4</a></td><td>User 4</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="oeelcr_user5.htm">user5</a></td><td>User 5</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="oeelcr_user6.htm">user6</a></td><td>User 6</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="oeelcr_user7.htm">user7</a></td><td>User 7</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="oeelcr_user8.htm">user8</a></td><td>User 8</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="oeelcr_user9.htm">user9</a></td><td>User 9</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-oeelcr.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-oeelcr.p</td><td></tr>
+<tr><td>Write</td><td>w-oeelcr.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

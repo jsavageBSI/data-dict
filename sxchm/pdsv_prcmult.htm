@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>pdsv.prcmult - Price</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>pdsv.prcmult - Price</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Price</td></tr><tr><td align="right">Type:&nbsp;</td><td>decimal</td></tr><tr><td align="right">Format:&nbsp;</td><td>zzzzzz9.99999</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>5</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>9</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Price.  This field provides a price for the PO.  Note that this is an</td></tr><tr><td>array of 9, each element representing another quantity break.  If no</td></tr><tr><td>quantity breaks are entered the first element will be used.</td></tr><tr><td>Otherwise, the first level will be used until the first quantity break</td></tr><tr><td>is met, then the program will proceed to the second level.</td></tr><tr><td></td></tr><tr><td>Note that all prices are considered to be in stocking or costing unit</td></tr><tr><td>(special pricing/costing) and that all prices are in the currency for</td></tr><tr><td>the vendor from which the products are purchased.</td></tr><tr><td></td></tr><tr><td>Note also that this is a hard dollar cost, not a multiplier or a</td></tr><tr><td>percentage.</td></tr><tr><td></td></tr><tr><td>If no quantity breaks are needed or quantity breaks are to be applied</td></tr><tr><td>against discount levels, the 'vendorprice' field should be used and this</td></tr><tr><td>field (ALL ELEMENTS) must be set to '0'.</td></tr></table>
+</div>
+</body>
+</html>

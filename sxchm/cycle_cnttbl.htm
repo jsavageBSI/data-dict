@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>CYCLE_CNT - Table used by the warehouse administrator to set up automatic cycle counts</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>CYCLE_CNT - Table used by the warehouse administrator to set up automatic cycle counts</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="cycle_cnt_co_wh_string_dates.htm">co_wh_string_dates</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="cycle_cnt_co_wh_type_string.htm">co_wh_type_string</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="cycle_cnt_id.htm">id</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="cycle_cnt_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="cycle_cnt_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="cycle_cnt_completed.htm">completed</a></td><td>Completed</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="cycle_cnt_completedtz.htm">completedtz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="cycle_cnt_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="cycle_cnt_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="cycle_cnt_cycle_string.htm">cycle_string</a></td><td>Level of Cycle Count</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="cycle_cnt_cycle_type.htm">cycle_type</a></td><td>Type of Cycle Count</td><td>Character</td><td>X(8)</td><td></tr>
+<tr><td><a href="cycle_cnt_emp_num.htm">emp_num</a></td><td>Employee Number</td><td>Character</td><td>x(5)</td><td></tr>
+<tr><td><a href="cycle_cnt_id.htm">id</a></td><td>Id</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="cycle_cnt_requested.htm">requested</a></td><td>Requested</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="cycle_cnt_requestedtz.htm">requestedtz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="cycle_cnt_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="cycle_cnt_row_status.htm">row_status</a></td><td>Active</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="cycle_cnt_started.htm">started</a></td><td>Started</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="cycle_cnt_startedtz.htm">startedtz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="cycle_cnt_task_id.htm">task_id</a></td><td>Task Id</td><td>Integer</td><td>>>>,>>>,>>9</td><td></tr>
+<tr><td><a href="cycle_cnt_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="cycle_cnt_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="cycle_cnt_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="cycle_cnt_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="cycle_cnt_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="cycle_cnt_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>CREATE</td><td>n-cycle_cnt.p</td><td></tr>
+<tr><td>replication-delete</td><td>rd-cycle_cnt.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-cycle_cnt.p</td><td></tr>
+<tr><td>WRITE</td><td>w-cycle_cnt.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

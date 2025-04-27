@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>apet.transcd - Tran Type</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>apet.transcd - Tran Type</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Tran Type</td></tr><tr><td align="right">Type:&nbsp;</td><td>integer</td></tr><tr><td align="right">Format:&nbsp;</td><td>9</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br><table><tr><td><b>Indexes: </b></td></tr><tr><td> <td><a href="apet_k-apinvno.htm">k-apinvno</a></td> 
+<td><a href="apet_k-inq.htm">k-inq</a></td> 
+<td><a href="apet_k-novend.htm">k-novend</a></td> 
+<td><a href="apet_k-pidjrnl.htm">k-pidjrnl</a></td> 
+</table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>This field represents the type of transaction you are processing:</td></tr><tr><td>Invoice, Rebate, miscellaneous Credit, Credit Memo, Manual Payment,</td></tr><tr><td>Debit Memo, or Reversal.  Enterable:  This field is enterable by the</td></tr><tr><td>user and is required.  The system will default a value of 0 into this</td></tr><tr><td>field, which represents an invoice type transaction.</td></tr><tr><td></td></tr><tr><td></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td> 0        invoice         debit                  </td></tr><tr><td> 2        rebate          none                   </td></tr><tr><td> 3        sched paymt     debit                  </td></tr><tr><td> 4        void check      debit                  </td></tr><tr><td> 5        misc credit     credit                 </td></tr><tr><td> 6        credit memo     credit                 </td></tr><tr><td> 7        paymt record    credit                 </td></tr><tr><td> 8        debit memo      debit                  </td></tr><tr><td> 9        reversal        credit(opp 0,1, or 4)  </td></tr><tr><td>10        batch costing   credit                 </td></tr><tr><td></td></tr></table>
+</div>
+</body>
+</html>

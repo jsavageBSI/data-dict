@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>poele.vendpono - Vendor PO #</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>poele.vendpono - Vendor PO #</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Vendor PO #</td></tr><tr><td align="right">Type:&nbsp;</td><td>integer</td></tr><tr><td align="right">Format:&nbsp;</td><td>zzzzzz9</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>Vendor's PO Number, if the Vendor's PO was &amp;lt;&amp;gt; to the Trend PO</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br><table><tr><td><b>Indexes: </b></td></tr><tr><td> <td><a href="poele_k-vendpo.htm">k-vendpo</a></td> 
+</table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>This is the Purchase Order Number that was provided in the EDI 855</td></tr><tr><td>Inbound documents' flat file if:</td></tr><tr><td>  -  the purchase order number in the flat file cannot be found in POEH</td></tr><tr><td>  -  the purchase order number in the flat file cannot be used because</td></tr><tr><td>     even though it was found in POEH, it matched specific conditions</td></tr><tr><td>     that make it unusable.</td></tr><tr><td>In any of these cases, a new Purchase Order was created that is the pono</td></tr><tr><td>in this file and this field is the original purchase order number that</td></tr><tr><td>was in the flat file.  This field will be used by additional EDI</td></tr><tr><td>documents so the purchase order number in the flat file for these</td></tr><tr><td>documents will be able to determine the corresponding purchase order in</td></tr><tr><td>POEH/POEL.</td></tr></table>
+</div>
+</body>
+</html>

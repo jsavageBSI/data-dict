@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>PRODCAT - Table contains product categories and information on what to do with products with these categories</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>PRODCAT - Table contains product categories and information on what to do with products with these categories</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="prodcat_co_wh_pickseq.htm">co_wh_pickseq</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="prodcat_co_wh_prodcat.htm">co_wh_prodcat</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="prodcat_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="prodcat_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="prodcat_addfl.htm">addfl</a></td><td>Allow Add</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="prodcat_changefl.htm">changefl</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="prodcat_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="prodcat_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="prodcat_description.htm">description</a></td><td>Description</td><td>Character</td><td>x(25)</td><td></tr>
+<tr><td><a href="prodcat_pick_sequence.htm">pick_sequence</a></td><td>Seq.</td><td>Integer</td><td>999</td><td></tr>
+<tr><td><a href="prodcat_prodcat.htm">prodcat</a></td><td>Category</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="prodcat_restrictfl.htm">restrictfl</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="prodcat_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="prodcat_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="prodcat_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="prodcat_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="prodcat_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="prodcat_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="prodcat_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-prodcat.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-prodcat.p</td><td></tr>
+<tr><td>Write</td><td>w-prodcat.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

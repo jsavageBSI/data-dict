@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>WLET - Warehouse Logistics Transaction File</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>WLET - Warehouse Logistics Transaction File</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="wlet_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wlet_k-statustype.htm">k-statustype</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="wlet_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="wlet_k-wlet.htm">k-wlet</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="wlet_cono.htm">cono</a></td><td>Company #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wlet_createdt.htm">createdt</a></td><td>Create Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wlet_createdttz.htm">createdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wlet_createtm.htm">createtm</a></td><td>Create Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="wlet_location.htm">location</a></td><td>WL Location</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="wlet_operinit.htm">operinit</a></td><td>Last Change By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wlet_priority.htm">priority</a></td><td>Priority</td><td>Integer</td><td>zz9</td><td></tr>
+<tr><td><a href="wlet_processty.htm">processty</a></td><td>Process Type</td><td>Character</td><td>x(3)</td><td></tr>
+<tr><td><a href="wlet_reply.htm">reply</a></td><td>Reply</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wlet_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="wlet_setno.htm">setno</a></td><td>Set #</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="wlet_statustype.htm">statustype</a></td><td>Status Type</td><td>Character</td><td>x(1)</td><td></tr>
+<tr><td><a href="wlet_transdt.htm">transdt</a></td><td>Last Change Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wlet_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wlet_transid.htm">transid</a></td><td>Trans ID</td><td>Decimal</td><td>>>>>>>>>>9</td><td></tr>
+<tr><td><a href="wlet_transproc.htm">transproc</a></td><td>Trans Proc</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wlet_transtm.htm">transtm</a></td><td>Last Change Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="wlet_transtype.htm">transtype</a></td><td>Trans Type</td><td>Character</td><td>x(1)</td><td></tr>
+<tr><td><a href="wlet_user1.htm">user1</a></td><td>User 1</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wlet_user2.htm">user2</a></td><td>User 2</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="wlet_user3.htm">user3</a></td><td>User 3</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wlet_user4.htm">user4</a></td><td>User 4</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wlet_user5.htm">user5</a></td><td>User 5</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="wlet_user6.htm">user6</a></td><td>User 6</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="wlet_user7.htm">user7</a></td><td>User 7</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="wlet_user8.htm">user8</a></td><td>User 8</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wlet_user9.htm">user9</a></td><td>User 9</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="wlet_whse.htm">whse</a></td><td>Whse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-wlet.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-wlet.p</td><td></tr>
+<tr><td>WRITE</td><td>w-wlet.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

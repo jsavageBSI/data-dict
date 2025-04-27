@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>arsg.credlim - Credit Limit</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>arsg.credlim - Credit Limit</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Credit Limit</td></tr><tr><td align="right">Type:&nbsp;</td><td>decimal</td></tr><tr><td align="right">Format:&nbsp;</td><td>>>>>>>>>9</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>0</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>Leave at '0' For Unlimited Credit</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>The amount of credit extended by the distributor to the group.</td></tr><tr><td>This value is compared against the total balance plus the on order balance</td></tr><tr><td>plus the future order balance when determining if an order should be placed</td></tr><tr><td>on hold.</td></tr><tr><td></td></tr><tr><td>The arsg.credlimappty field will control how the credit limit is applied.</td></tr><tr><td>If the credit limit is to be controlled by the group, the outstanding balance of</td></tr><tr><td>all group members will be compbined and compared against the group credit</td></tr><tr><td>limit.  The credit limit values on ARSC or ARSS for group members will not be</td></tr><tr><td>used.</td></tr><tr><td>If the group credit limit is to be used as part of a hierarchy, the outstanding</td></tr><tr><td>balance of the individual group member will be compared first against the</td></tr><tr><td>group credit limit value.  If the order does not go on hold based on the group</td></tr><tr><td>credit limit, the outstanding balance of the member will be compagred against</td></tr><tr><td>their ARSC or ARSS credit limit.</td></tr><tr><td>If the group credit limit is to be bypassed, the outstanding balance of the</td></tr><tr><td>individual member will only be compared against their credit limit from either</td></tr><tr><td>ARSC or ARSS.</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>Integer value</td></tr><tr><td>Zero = unlimited credit</td></tr><tr><td>Non-Zero = credit limit</td></tr></table>
+</div>
+</body>
+</html>

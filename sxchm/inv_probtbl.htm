@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>INV_PROB - Contains discrepancy records</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>INV_PROB - Contains discrepancy records</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="inv_prob_co_wh_abs.htm">co_wh_abs</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="inv_prob_co_wh_bin_abs_type.htm">co_wh_bin_abs_type</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="inv_prob_co_wh_trans.htm">co_wh_trans</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="inv_prob_co_wh_type_trans.htm">co_wh_type_trans</a>&nbsp;</td><td>Primary&nbsp;</td></tr>
+<tr><td><a href="inv_prob_id.htm">id</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="inv_prob_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="inv_prob_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="inv_prob_abs_num.htm">abs_num</a></td><td>Absolute Item Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="inv_prob_actual_qty.htm">actual_qty</a></td><td>Actual Qty</td><td>Decimal</td><td>>>>,>>9.99</td><td></tr>
+<tr><td><a href="inv_prob_bin_num.htm">bin_num</a></td><td>Location</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="inv_prob_case_quantity.htm">case_quantity</a></td><td>Case Quantity</td><td>Decimal</td><td>>>>,>>9.9999</td><td></tr>
+<tr><td><a href="inv_prob_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="inv_prob_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="inv_prob_exp_bin.htm">exp_bin</a></td><td>Expected Location</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="inv_prob_exp_pallet.htm">exp_pallet</a></td><td>Pallet Id</td><td>Character</td><td>x(17)</td><td></tr>
+<tr><td><a href="inv_prob_exp_qty.htm">exp_qty</a></td><td>Expected Qty</td><td>Decimal</td><td>>>>,>>9.99</td><td></tr>
+<tr><td><a href="inv_prob_inv_prob_id.htm">inv_prob_id</a></td><td>Inv Problem Id</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="inv_prob_item_num.htm">item_num</a></td><td>Catalog Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="inv_prob_lot.htm">lot</a></td><td>Lot</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="inv_prob_lot_before.htm">lot_before</a></td><td>Lot Before</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="inv_prob_pallet_id.htm">pallet_id</a></td><td>Pallet Id</td><td>Character</td><td>x(17)</td><td></tr>
+<tr><td><a href="inv_prob_printed.htm">printed</a></td><td>Printed</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="inv_prob_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="inv_prob_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="inv_prob_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="inv_prob_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="inv_prob_trans_num.htm">trans_num</a></td><td>Transaction Number</td><td>Integer</td><td>>>>>>>>>9</td><td></tr>
+<tr><td><a href="inv_prob_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="inv_prob_trans_type.htm">trans_type</a></td><td>Transaction Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="inv_prob_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="inv_prob_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>CREATE</td><td>n-inv_prob.p</td><td></tr>
+<tr><td>replication-delete</td><td>rd-inv_prob.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-inv_prob.p</td><td></tr>
+<tr><td>WRITE</td><td>w-inv_prob.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

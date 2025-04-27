@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>pdsv.startdt - Begin Date</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>pdsv.startdt - Begin Date</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Begin Date</td></tr><tr><td align="right">Type:&nbsp;</td><td>date</td></tr><tr><td align="right">Format:&nbsp;</td><td>99/99/99</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>?</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br><table><tr><td><b>Indexes: </b></td></tr><tr><td> <td><a href="pdsv_k-pdsv.htm">k-pdsv</a></td> 
+</table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Start Date.  This field is required, indicating the first effective date</td></tr><tr><td>of this record.  Start date is an element in the primary key for PDSV.</td></tr><tr><td>This allows two records for the same product but with different start</td></tr><tr><td>dates.  It is not possible to have two records for the same company,</td></tr><tr><td>vendor, product, and startdt.</td></tr><tr><td></td></tr><tr><td>It is possible to define records with future and past start dates.</td></tr><tr><td>Future dated records will not become effective until the start date.</td></tr><tr><td>Back dated records will become effective immediately unless another</td></tr><tr><td>record exists with a more recent start date (and other valid</td></tr><tr><td>information), in which case that become effective only if that more</td></tr><tr><td>recent record expires, is inactivated, or is deleted.</td></tr></table>
+</div>
+</body>
+</html>

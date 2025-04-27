@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>wtel.custstkqtyshp - Customer Stk Qty</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>wtel.custstkqtyshp - Customer Stk Qty</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Customer Stk Qty</td></tr><tr><td align="right">Type:&nbsp;</td><td>decimal</td></tr><tr><td align="right">Format:&nbsp;</td><td>>>>>>>9.99-</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>2</td></tr><tr><td align="right">Initial:&nbsp;</td><td>0</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>no</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td>How Much of the Inventory Shipped is Customer Owned</td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Loads in WTES during the Final Update.  If the Shipping Whse is Storeroom</td></tr><tr><td>managed and there is stock available in that warehouse that is Customer</td></tr><tr><td>Owned, then the new field is loaded with what ever amount of the line's </td></tr><tr><td>Stock Qty Shipped amount that it can (full amount, partial amount or none).</td></tr><tr><td></td></tr><tr><td>The quantity loaded on the WT Line is used in WTEI for the Customer Owned</td></tr><tr><td>quantity that is shipped to the receiving warehouse for ICETC updates, </td></tr><tr><td>Customer Average Cost calculations, etc.</td></tr><tr><td></td></tr><tr><td>It is a sub-set of the wtel.stkqtyship field - meaning this old field is still the</td></tr><tr><td>full shipped quantity for the line item, and the new customer field reflects</td></tr><tr><td>how much of the line quantity is customer owned when shipped.</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>Customer Owned inventory that is shipped on the WT.</td></tr></table>
+</div>
+</body>
+</html>

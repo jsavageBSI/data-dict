@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>WH_ZONE - All warehouse zones</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>WH_ZONE - All warehouse zones</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="wh_zone_co_wh_name.htm">co_wh_name</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wh_zone_co_wh_sequence.htm">co_wh_sequence</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="wh_zone_co_zone.htm">co_zone</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="wh_zone_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="wh_zone_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="wh_zone_allow_eod_cycle.htm">allow_eod_cycle</a></td><td>EOD Cycle</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wh_zone_allow_picking.htm">allow_picking</a></td><td>Allow Picking</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wh_zone_allow_putaway.htm">allow_putaway</a></td><td>Allow Put-Away</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wh_zone_carousel_type.htm">carousel_type</a></td><td>Carousel Type</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="wh_zone_control_pick_area.htm">control_pick_area</a></td><td>Control Pick Area</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="wh_zone_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wh_zone_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="wh_zone_first_aisle.htm">first_aisle</a></td><td>First Aisle</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wh_zone_last_aisle.htm">last_aisle</a></td><td>Last Aisle</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="wh_zone_pick_sequence.htm">pick_sequence</a></td><td>Pick Sequence</td><td>Integer</td><td>999</td><td></tr>
+<tr><td><a href="wh_zone_putaway_sequence.htm">putaway_sequence</a></td><td>Seq</td><td>Integer</td><td>999</td><td></tr>
+<tr><td><a href="wh_zone_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="wh_zone_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wh_zone_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="wh_zone_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="wh_zone_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="wh_zone_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="wh_zone_vocollect.htm">vocollect</a></td><td>voCollect</td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="wh_zone_vocregion.htm">vocregion</a></td><td>voCollect Region</td><td>Integer</td><td>>>>>>>>>9</td><td></tr>
+<tr><td><a href="wh_zone_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="wh_zone_wh_zone.htm">wh_zone</a></td><td>Warehouse Zone</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="wh_zone_zone_desc.htm">zone_desc</a></td><td>Zone Description</td><td>Character</td><td>x(60)</td><td></tr>
+<tr><td><a href="wh_zone_zone_type.htm">zone_type</a></td><td>Zone Type</td><td>Character</td><td>XX</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-wh_zone.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-wh_zone.p</td><td></tr>
+<tr><td>Write</td><td>w-wh_zone.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

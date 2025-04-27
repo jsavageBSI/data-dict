@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>MOVEMST - Table contains movement requests (for replenishments,production scheduling, etc.)</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>MOVEMST - Table contains movement requests (for replenishments,production scheduling, etc.)</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="movemst_batch_item_from_to.htm">batch_item_from_to</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_co_wh_abs.htm">co_wh_abs</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_co_wh_from_abs_status.htm">co_wh_from_abs_status</a>&nbsp;</td><td>Primary&nbsp;</td></tr>
+<tr><td><a href="movemst_co_wh_order_suffix.htm">co_wh_order_suffix</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_co_wh_task.htm">co_wh_task</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_co_wh_to_abs_status.htm">co_wh_to_abs_status</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_co_wh_truck.htm">co_wh_truck</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="movemst_id.htm">id</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="movemst_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="movemst_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="movemst_abs_num.htm">abs_num</a></td><td>Item Number</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="movemst_batch.htm">batch</a></td><td>Wave</td><td>Integer</td><td>>,>>>,>>9</td><td></tr>
+<tr><td><a href="movemst_bin_from.htm">bin_from</a></td><td>Location</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="movemst_bin_to.htm">bin_to</a></td><td>Location To</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td><a href="movemst_co_num.htm">co_num</a></td><td>Company</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="movemst_custom_data.htm">custom_data</a></td><td></td><td>Character[5]</td><td>X(50)</td><td></tr>
+<tr><td><a href="movemst_date_time.htm">date_time</a></td><td>Date and Time</td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="movemst_date_timetz.htm">date_timetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="movemst_dept_num.htm">dept_num</a></td><td>Department</td><td>Integer</td><td>>>>>>9</td><td></tr>
+<tr><td><a href="movemst_doc_id.htm">doc_id</a></td><td>Document ID</td><td>Character</td><td>X(10)</td><td></tr>
+<tr><td><a href="movemst_id.htm">id</a></td><td>Id</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="movemst_lot.htm">lot</a></td><td>Lot</td><td>Character</td><td>x(24)</td><td></tr>
+<tr><td><a href="movemst_machine.htm">machine</a></td><td>Machine</td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="movemst_movement_type.htm">movement_type</a></td><td>Movement Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="movemst_order.htm">order</a></td><td>Order</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="movemst_order_suffix.htm">order_suffix</a></td><td>Order Suffix</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="movemst_pallet_id.htm">pallet_id</a></td><td>Pallet Id</td><td>Character</td><td>x(17)</td><td></tr>
+<tr><td><a href="movemst_prod_id.htm">prod_id</a></td><td>Production Id</td><td>Integer</td><td>>>>>>>9</td><td></tr>
+<tr><td><a href="movemst_prod_line.htm">prod_line</a></td><td>Line</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="movemst_quantity.htm">quantity</a></td><td>Quantity</td><td>Decimal</td><td>>>>,>>9</td><td></tr>
+<tr><td><a href="movemst_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="movemst_row_status.htm">row_status</a></td><td>Status</td><td>Character</td><td>X</td><td></tr>
+<tr><td><a href="movemst_task_id.htm">task_id</a></td><td>Task Id</td><td>Integer</td><td>>>>,>>>,>>9</td><td></tr>
+<tr><td><a href="movemst_to_wh_num.htm">to_wh_num</a></td><td>Warehouse Number</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="movemst_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="movemst_trans_date.htm">trans_date</a></td><td></td><td>Character</td><td>9999-99-99 99:99</td><td></tr>
+<tr><td><a href="movemst_trans_datetz.htm">trans_datetz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="movemst_trans_proc.htm">trans_proc</a></td><td></td><td>Character</td><td>X(64)</td><td></tr>
+<tr><td><a href="movemst_trans_user.htm">trans_user</a></td><td></td><td>Character</td><td>X(6)</td><td></tr>
+<tr><td><a href="movemst_truck_id.htm">truck_id</a></td><td>Truck Id</td><td>Character</td><td>x(20)</td><td></tr>
+<tr><td><a href="movemst_urgent.htm">urgent</a></td><td></td><td>Logical</td><td>yes/no</td><td></tr>
+<tr><td><a href="movemst_wh_num.htm">wh_num</a></td><td>Warehouse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="movemst_wh_zone.htm">wh_zone</a></td><td>Warehouse Zone</td><td>Character</td><td>XX</td><td></tr>
+<tr><td><a href="movemst_zone_to.htm">zone_to</a></td><td>Front Loading Zone</td><td>Character</td><td>x(10)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>CREATE</td><td>n-movemst.p</td><td></tr>
+<tr><td>replication-delete</td><td>rd-movemst.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-movemst.p</td><td></tr>
+<tr><td>WRITE</td><td>w-movemst.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

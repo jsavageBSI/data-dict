@@ -1,0 +1,90 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>ARETT - Sales Tax Transaction Audit File</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>ARETT - Sales Tax Transaction Audit File</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+<tr><td><b>Indexes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></td></tr><tr><td><a href="arett_k-arett.htm">k-arett</a>&nbsp;</td><td>Primary&nbsp;Unique&nbsp;</td></tr>
+<tr><td><a href="arett_k-invdt.htm">k-invdt</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="arett_k-orderno.htm">k-orderno</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="arett_k-paiddt.htm">k-paiddt</a>&nbsp;</td><td></td></tr>
+<tr><td><a href="arett_k-rowpointer.htm">k-rowpointer</a>&nbsp;</td><td>Unique&nbsp;</td></tr>
+<tr><td><a href="arett_k-transdttmz.htm">k-transdttmz</a>&nbsp;</td><td></td></tr>
+<tr><td>&nbsp;</td></tr><br><tr><td><b>Field</b></td><td><b>Label</b></td><td><b>Type</b></td><td><b>Format</b></td></tr><tr><td><a href="arett_addonnet.htm">addonnet</a></td><td>Net Addon Amount</td><td>Decimal[10]</td><td>zzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_addonno.htm">addonno</a></td><td>Addons</td><td>Integer[10]</td><td>9</td><td></tr>
+<tr><td><a href="arett_citycd.htm">citycd</a></td><td>City</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="arett_cono.htm">cono</a></td><td>Company #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="arett_countycd.htm">countycd</a></td><td>County</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="arett_custno.htm">custno</a></td><td>Customer #</td><td>Decimal</td><td>>>>>>>>>>>>9</td><td></tr>
+<tr><td><a href="arett_divno.htm">divno</a></td><td>Division #</td><td>Integer</td><td>>>>9</td><td></tr>
+<tr><td><a href="arett_invdt.htm">invdt</a></td><td>Invoice Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="arett_invdttz.htm">invdttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="arett_operinit.htm">operinit</a></td><td>Last Change By</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="arett_orderno.htm">orderno</a></td><td>Order #</td><td>Integer</td><td>zzzzzzz9</td><td></tr>
+<tr><td><a href="arett_ordersuf.htm">ordersuf</a></td><td>Order Suffix</td><td>Integer</td><td>99</td><td></tr>
+<tr><td><a href="arett_othercd.htm">othercd</a></td><td>Other Code</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="arett_paiddt.htm">paiddt</a></td><td>Paid</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="arett_paiddttz.htm">paiddttz</a></td><td>Time Zone Off Set</td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="arett_recty.htm">recty</a></td><td>Rec Type</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="arett_rowpointer.htm">rowpointer</a></td><td>Row Pointer</td><td>Character</td><td>x(36)</td><td></tr>
+<tr><td><a href="arett_statecd.htm">statecd</a></td><td>Taxing State</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="arett_taxactcd.htm">taxactcd</a></td><td>Tax Action Code</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="arett_taxadjcd.htm">taxadjcd</a></td><td>Tax Adjustment Code</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="arett_taxexcadj.htm">taxexcadj</a></td><td>Tax Excise Adjustment</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexcadjbase.htm">taxexcadjbase</a></td><td>Tax Excise Adjusted Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexcamt.htm">taxexcamt</a></td><td>Tax Excise Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexcbase.htm">taxexcbase</a></td><td>Tax Excise Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexcexempt.htm">taxexcexempt</a></td><td>Tax Excise Exempt Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexcrt.htm">taxexcrt</a></td><td>Tax Excise Rate</td><td>Decimal</td><td>zz9.99999</td><td></tr>
+<tr><td><a href="arett_taxexemptamt.htm">taxexemptamt</a></td><td>Tax Exempt Amt</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxexemptcd.htm">taxexemptcd</a></td><td>Tax Exempt Code</td><td>Character</td><td>x(12)</td><td></tr>
+<tr><td><a href="arett_taxgroup.htm">taxgroup</a></td><td>Tax Group</td><td>Integer</td><td>9</td><td></tr>
+<tr><td><a href="arett_taxovercd.htm">taxovercd</a></td><td>Tax Override</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td><a href="arett_taxsaleadj.htm">taxsaleadj</a></td><td>Tax Sale Adjustment</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxsaleadjbase.htm">taxsaleadjbase</a></td><td>Tax Sale Adjusted Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxsaleamt.htm">taxsaleamt</a></td><td>Tax Sale Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxsalebase.htm">taxsalebase</a></td><td>Tax Sale Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxsaleexempt.htm">taxsaleexempt</a></td><td>Tax Sales Exempt Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxsalert.htm">taxsalert</a></td><td>Tax Sale Rate</td><td>Decimal</td><td>zz9.99999</td><td></tr>
+<tr><td><a href="arett_taxtransadj.htm">taxtransadj</a></td><td>Tax Transit Adjustment</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxtransadjbase.htm">taxtransadjbase</a></td><td>Tax Transit Adjusted Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxtransamt.htm">taxtransamt</a></td><td>Tax Transit Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxtransbase.htm">taxtransbase</a></td><td>Tax Transit Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxtransexempt.htm">taxtransexempt</a></td><td>Tax Transit Exempt Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxtransrt.htm">taxtransrt</a></td><td>Tax Transit Rate</td><td>Decimal</td><td>zz9.99999</td><td></tr>
+<tr><td><a href="arett_taxuseadj.htm">taxuseadj</a></td><td>Tax Use Adjustment</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxuseadjbase.htm">taxuseadjbase</a></td><td>Tax Use Adjusted Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxuseamt.htm">taxuseamt</a></td><td>Tax Use Amt</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxusebase.htm">taxusebase</a></td><td>Tax Use Base</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxuseexempt.htm">taxuseexempt</a></td><td>Tax Use Exempt Amount</td><td>Decimal</td><td>zzzzzzzz9.99-</td><td></tr>
+<tr><td><a href="arett_taxusert.htm">taxusert</a></td><td>Tax Use Rate</td><td>Decimal</td><td>zz9.99999</td><td></tr>
+<tr><td><a href="arett_transdt.htm">transdt</a></td><td>Last Change Date</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="arett_transdttmz.htm">transdttmz</a></td><td></td><td>Datetime-tz</td><td>99/99/9999 HH:MM:SS.SSS+HH:MM</td><td></tr>
+<tr><td><a href="arett_transproc.htm">transproc</a></td><td>Trans Proc</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="arett_transtm.htm">transtm</a></td><td>Last Change Time</td><td>Character</td><td>xx:xx</td><td></tr>
+<tr><td><a href="arett_transtype.htm">transtype</a></td><td>Type</td><td>Character</td><td>x(2)</td><td></tr>
+<tr><td><a href="arett_user1.htm">user1</a></td><td>User 1</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="arett_user2.htm">user2</a></td><td>User 2</td><td>Character</td><td>x(8)</td><td></tr>
+<tr><td><a href="arett_user3.htm">user3</a></td><td>User 3</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="arett_user4.htm">user4</a></td><td>User 4</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="arett_user5.htm">user5</a></td><td>User 5</td><td>Character</td><td>x(78)</td><td></tr>
+<tr><td><a href="arett_user6.htm">user6</a></td><td>User 6</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="arett_user7.htm">user7</a></td><td>User 7</td><td>Decimal</td><td>zzzzzzzz9.99999-</td><td></tr>
+<tr><td><a href="arett_user8.htm">user8</a></td><td>User 8</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="arett_user9.htm">user9</a></td><td>User 9</td><td>Date</td><td>99/99/99</td><td></tr>
+<tr><td><a href="arett_whse.htm">whse</a></td><td>Default Whse</td><td>Character</td><td>x(4)</td><td></tr>
+<tr><td>&nbsp;</td></tr> 
+<tr><td><b>Triggers: </b></td></tr> 
+<tr><td>replication-delete</td><td>rd-arett.p</td><td></tr>
+<tr><td>replication-write</td><td>rw-arett.p</td><td></tr>
+<tr><td>WRITE</td><td>w-arett.p</td><td></tr>
+</table></table>
+</div>
+</body>
+</html>

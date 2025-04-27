@@ -1,0 +1,21 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>pdsm.margintype - Margin Type</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>pdsm.margintype - Margin Type</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Margin Type</td></tr><tr><td align="right">Type:&nbsp;</td><td>character</td></tr><tr><td align="right">Format:&nbsp;</td><td>x(1)</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td></td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>yes</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br><table><tr><td><b>Indexes: </b></td></tr><tr><td> <td><a href="pdsm_k-pdsm.htm">k-pdsm</a></td> 
+<td><a href="pdsm_k-pricetype.htm">k-pricetype</a></td> 
+</table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Added with JIRA SXWEB-38285/SXWEB-42700. These PDSM records will be used during Invoice Processing to put orders on hold for margin issues.  This allows the order lines to be checked for margin issues while still providing good customer service without holding up delivery of the product.  These Margin Type records are hierarchical (customer, warehouse, pricing zone, price region, company (SASTA Type K only) and the errors can be seen in OEIX.  OEIR and OEIX can be used to release the hold.</td></tr><tr><td>Usage of this logic requires AOData OE – ExtendedMarginLimits to be checked.  This can be found in AO – Documents – Sales Orders – Approval Process – Approval section with the label “Use Extended Margin Limits”. </td></tr><tr><td></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>C   Customer         validated in ARSC</td></tr><tr><td>W  Warehouse     validated in ICSD</td></tr><tr><td>R   Price Region   validated in SASTA - RG</td></tr><tr><td>Z   Pricing Zone    validated in SASTA - PZ</td></tr></table>
+</div>
+</body>
+</html>

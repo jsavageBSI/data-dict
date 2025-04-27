@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>apsv.allowgenericprodrebfl - Allow Generic Prod Rebate</title>
+<link rel="stylesheet" type="text/css" href="sxdicthlp.css">
+<link rel="stylesheet" type="text/css" href="sxdictprt.css" media="print">
+</head>
+<body>
+<div class="nscr" >
+<font size="5" color="#B5121B"><b>apsv.allowgenericprodrebfl - Allow Generic Prod Rebate</b></font></div>
+<div id="scrl" class="mainsect">
+<blockquote><table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="91%">
+
+<table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse" ><tr><td align="right">&nbsp;</td><td>&nbsp;</td></tr><tr><td align="right">Label:&nbsp;</td><td>Allow Generic Prod Rebate</td></tr><tr><td align="right">Type:&nbsp;</td><td>logical</td></tr><tr><td align="right">Format:&nbsp;</td><td>yes/no</td></tr><tr><td align="right">Decimals:&nbsp;</td><td>?</td></tr><tr><td align="right">Initial:&nbsp;</td><td>no</td></tr><tr><td align="right">Extent:&nbsp;</td><td>0</td></tr><tr><td align="right">Mandatory:&nbsp;</td><td>yes</td></tr><tr><td align="right">Val Exp:&nbsp;</td><td>?</td></tr><tr><td align="right">Val Msg:&nbsp;</td><td></td></tr><tr><td align="right">Help:&nbsp;</td><td></td></tr><tr><td align="right">Trigger:&nbsp;</td><td></td></tr></table>
+<br></table><br><br><table cellpadding="0" style="font-family: Verdana; font-size: 10pt; border-collapse: collapse"><tr><td><b> Description: </b></td></tr><tr><td>Added with JIRA SXWEB-38291/SXWEB-39527.  This field sets this vendor to participate on the Generic Rebates logic for Vendor on Sale rebates, when checked.  It is located in APSV – Ordering – Rebates section with the label “Use Generic Rebates”.  When a product is entered on the OE line, the vendor is looked up – in ICSW, ICSC, or from OEEL depending on the product being a stock, catalog, or non-stock product – to determine if that vendor is a generic product rebate vendor based on the APSV allow generic rebates flag. If that vendor allows generic rebates, the PDSR rebate logic will ignore the assigned vendor, except to limit the choices to vendors who use generic rebates.  As soon as a record is found, ignoring the vendor, that rebate will be used and then the logic will continue to use all other criteria for finding the best rebate to use, e.g., it will still use the Customer Rebate Types listed for the customer in ARSC/ARSS and any other criteria such as customer/shipto/warehouse.  So it is just ignoring the vendor when searching for the rebate to use but does not ignore any other criteria.</td></tr><tr><td>Usage of this logic requires AOData PD - PDGenericVendProdRebateFl to be checked.  This can be found in AO – Products – Rebates – Rebates Options section with the label “Allow Generic Product Rebates”. </td></tr><tr><td></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Content: </b></td></tr>
+<tr><td>logical  </td></tr></table>
+</div>
+</body>
+</html>
